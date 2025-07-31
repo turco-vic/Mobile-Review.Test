@@ -21,11 +21,11 @@ export default function TabNavigator() {
                 }}
             />
             <Tab.Screen
-                name="Details"
+                name="Characters"
                 component={Details}
                 options={{
                     tabBarIcon: ({ color, size }) => (
-                        <AntDesign name="linechart" size={size} color={color} />
+                        <AntDesign name="team" size={size} color={color} />
                     ),
                 }}
             />
