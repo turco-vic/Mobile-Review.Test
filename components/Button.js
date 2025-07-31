@@ -7,6 +7,7 @@ export default function Button({ text, onPress }) {
             <Text style={styles.textButton}>{text}</Text>
         </TouchableOpacity>
     );
+    
 };
 
 const styles = StyleSheet.create({
