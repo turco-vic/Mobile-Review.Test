@@ -10,6 +10,7 @@ export default function Perfil() {
             style={styles.container}
             resizeMode="cover"
         >
+            <Text style={styles.titlee}>Developer in development!</Text>
             <View style={styles.cardAll}>
                 <Text style={styles.title}>Enzo Turcovic</Text>
                 <Image source={require("../assets/profile.png")} style={styles.image} />
@@ -32,6 +33,11 @@ const styles = StyleSheet.create({
         backgroundColor: "#fff",
         alignItems: "center",
         justifyContent: "center",
+    },
+    titlee: {
+        fontSize: 20,
+        fontWeight: "bold",
+        margin: 20,
     },
     cardAll: {
         backgroundColor: "white",

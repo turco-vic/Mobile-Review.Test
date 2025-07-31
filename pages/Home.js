@@ -10,8 +10,9 @@ export default function Home({ navigation }) {
         >
             <Text style={styles.title}>Welcome to Bikini Bottom!</Text>
             <View style={styles.card}>
-                <TextInput style={styles.input} placeholder="Type something For Nothing" />
+                <Text style={styles.text}>Get ready to explore the underwater world in a fun and interactive way. Here, you'll meet the most iconic characters from the SpongeBob universe, discover fun facts, and dive into an experience crafted with care, technology, and a touch of nostalgia. Enjoy the ride!</Text>
             </View>
+            {/* <TextInput style={styles.input} placeholder="Type something For Nothing" /> */}
             <Button text="Click Here For Do Nothing!" />
         </ImageBackground>
     );
@@ -31,6 +32,13 @@ const styles = StyleSheet.create({
         borderRadius: 10,
         width: "90%",
         height: "40%",
+        padding: 20,
+    },
+    text: {
+        fontSize: 18,
+        textAlign: "center",
+        color: "black",
+        margin: 10,
     },
     title: {
         fontSize: 28,
@@ -39,12 +47,13 @@ const styles = StyleSheet.create({
         margin: 60,
     },
     input: {
+        backgroundColor: "#946bc0",
         height: 40,
-        width: 300,
+        width: "90%",
         borderColor: "gray",
         borderWidth: 1,
         marginTop: 30,
         padding: 10,
-        borderRadius: 10,
+        borderRadius: 10, 
     },
 });

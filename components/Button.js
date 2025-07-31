@@ -7,12 +7,11 @@ export default function Button({ text, onPress }) {
             <Text style={styles.textButton}>{text}</Text>
         </TouchableOpacity>
     );
-    
 };
 
 const styles = StyleSheet.create({
     button: {
-        backgroundColor: "blue",
+        backgroundColor: "#79c2ce",
         padding: 10,
         marginTop: 20,
         width: "90%",
@@ -22,5 +21,7 @@ const styles = StyleSheet.create({
     },
     textButton: {
         color: "white",
+        fontSize: 18,
+        fontWeight: "bold",
     },
 });
