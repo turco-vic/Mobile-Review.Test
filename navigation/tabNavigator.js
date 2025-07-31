@@ -1,9 +1,10 @@
 import React from 'react';
 import { createBottomTabNavigator} from '@react-navigation/bottom-tabs';
-import Details from "../pagesDetails";
-import Home from "../pagesHome";
-import Profile from "../pagesProfile";
+import Details from "../pages/Details";
+import Profile from "../pages/Profile";
+import Home from "../pages/Home";
 import Icon from 'react-native-vector-icons/Ionicons';
+import AntDesign from '@expo/vector-icons/AntDesign';
 
 const Tab = createBottomTabNavigator();
 
